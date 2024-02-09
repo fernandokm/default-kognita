@@ -14,6 +14,7 @@ Para mais informações, consulte a [apresentação de slides](./docs/slides.pdf
 - [docs/slides.pdf](./docs/slides.pdf): apresentação de slides sobre o projeto
 - [model.pickle](./model.pickle): modelo treinado
 - [requirements.txt](./requirements.txt): lista de dependências necessárias para rodar o projeto
+- [_data/dataset_2021-5-26-10-14.csv](./dataset_2021-5-26-10-14.csv): contém os dados utilizados no projeto
 
 ## Dependências
 
@@ -43,11 +44,11 @@ pip install jupyterlab # JupyterLab
 
 ## Dados
 
-Os dados utilizados neste projeto estão localizados em `_data/dataset_2021-5-26-10-14.csv` e incluem variáveis internas e externas, como detalhado na apresentação.
+Os dados utilizados neste projeto estão localizados em [_data/dataset_2021-5-26-10-14.csv](./_data/dataset_2021-5-26-10-14.csv) e incluem variáveis internas e externas, como detalhado na apresentação.
 
 ## Como Usar
 
 1. Clone o repositório para o seu ambiente local.
 2. Instale as dependências necessárias.
-3. Explore os notebooks na pasta `notebooks/` para entender a análise de dados, o processo de treinamento e a função de predição.
-4. Para previsões, use o notebook `3_predicao.ipynb`, alimentando-o com novos dados em forma de dicionário, conforme os exemplos fornecidos.
+3. Explore os notebooks na pasta [notebooks/](./notebooks/) para entender a análise de dados, o processo de treinamento e a função de predição.
+4. Para previsões, use o notebook [3_predicao.ipynb](./notebooks/3_predicao.ipynb), alimentando-o com novos dados em forma de dicionário, conforme os exemplos fornecidos.
