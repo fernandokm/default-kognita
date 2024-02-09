@@ -1,0 +1,24 @@
+[tool.ruff]
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "W",
+    "I",
+    "N",
+    "UP",
+    "A",
+    "C4",
+    "EM",
+    "EXE",
+    "INP",
+    "PIE",
+    "TCH",
+    "NPY",
+    "RUF",
+    "PD",
+]
+
+ignore = ["E402"]
